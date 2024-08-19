@@ -407,7 +407,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:alpine
+        image: redis:7.4.0-alpine
         ports:
         - containerPort: 6379
         livenessProbe:
